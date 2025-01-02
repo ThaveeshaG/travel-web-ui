@@ -16,7 +16,7 @@ nav{
   flex-wrap: wrap;
 }
 nav .logo{
-  color: #33d401;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 600;
 }
@@ -41,7 +41,7 @@ nav ul li a{
 nav ul li a.active,
 nav ul li a:hover{
   color: #111;
-  background: #33d401;
+  background: #4c4d4b;
 }
 nav .menu-btn i{
   color: #fff;
