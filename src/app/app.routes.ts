@@ -1,7 +1,11 @@
 import { Routes } from '@angular/router';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'about', component:AboutComponent },
+  { path: 'contact', component:ContactComponent },
   { path: 'home', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
   { path: 'history', loadChildren: () => import('./modules/history/history.module').then(m => m.HistoryModule) },
   { path: 'wildlife', loadChildren: () => import('./modules/wildlife/wildlife.module').then(m => m.WildlifeModule) },
